@@ -32,9 +32,13 @@ const Footer = () => {
         {
             title: "CONTACT",
             links: [
-                { text: "+1-212-456-7890", path: '/', icon: MailIcon },
-                { text: "contact@example.com", path: '/', icon: PhoneIcon },
-                { text: "794 Francisco, 94102", path: '/', icon: MapPinIcon }
+                { text: "+44-778-227-7004", path: '/', icon: MailIcon },
+                { text: "gateway.consultisor@gmail.com", path: '/', icon: PhoneIcon },
+                {
+                    text: "SUITE C153 4 - 6, GREATOREX STREET, LONDON, E1 5NF, UNITED KINGDOM",
+                    path: '/',
+                    icon: MapPinIcon
+                }
             ]
         }
     ];

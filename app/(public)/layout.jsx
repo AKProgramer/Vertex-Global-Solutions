@@ -2,15 +2,18 @@
 import Banner from "@/components/Banner";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { usePathname } from "next/navigation";
 
 export default function PublicLayout({ children }) {
+    const pathname = usePathname();
+    const isAuthPage = pathname === '/login' || pathname === '/signup';
 
     return (
         <>
-            <Banner />
-            <Navbar />
+            {!isAuthPage && <Banner />}
+            {!isAuthPage && <Navbar />}
             {children}
-            <Footer />
+            {!isAuthPage && <Footer />}
         </>
     );
 }
