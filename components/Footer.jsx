@@ -14,26 +14,25 @@ const Footer = () => {
         {
             title: "PRODUCTS",
             links: [
-                { text: "Earphones", path: '/', icon: null },
-                { text: "Headphones", path: '/', icon: null },
-                { text: "Smartphones", path: '/', icon: null },
-                { text: "Laptops", path: '/', icon: null },
+                { text: "Speakers", path: '/shop?category=speakers', icon: null },
+                { text: "Watches", path: '/shop?category=watch', icon: null },
+                { text: "Headphones", path: '/shop?category=headphones', icon: null },
+                { text: "Earbuds", path: '/shop?category=earbuds', icon: null },
             ]
         },
         {
             title: "WEBSITE?",
             links: [
                 { text: "Home", path: '/', icon: null },
-                { text: "Privacy Policy", path: '/', icon: null },
-                { text: "Become Plus Member", path: '/pricing', icon: null },
-                { text: "Create Your Store", path: '/create-store', icon: null },
+                { text: "Privacy Policy", path: '/privacy-policy', icon: null },
+        
             ]
         },
         {
             title: "CONTACT",
             links: [
                 { text: "+44-778-227-7004", path: '/', icon: MailIcon },
-                { text: "gateway.consultisor@gmail.com", path: '/', icon: PhoneIcon },
+                { text: "alivertexglobal@gmail.com", path: '/', icon: PhoneIcon },
                 {
                     text: "SUITE C153 4 - 6, GREATOREX STREET, LONDON, E1 5NF, UNITED KINGDOM",
                     path: '/',

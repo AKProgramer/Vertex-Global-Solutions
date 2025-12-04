@@ -37,7 +37,7 @@ const ContactPage = () => {
         {
             icon: Mail,
             title: 'Email',
-            details: ['gateway.consultisor@gmail.com'],
+            details: ['alivertexglobal@gmail.com'],
             accent: '#3B82F6'
         },
         {
